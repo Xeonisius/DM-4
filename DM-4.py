@@ -5,9 +5,9 @@ from math import sqrt
 matrix = [[2, -3], [-1, 2]]
 
 #Генератор случайных чисел
-def rand(p):
-    r = random()
-    if r <= p:
+def rand(r):
+    i = random()
+    if i <= r:
         d = 0
     else:
         d = 1
